@@ -1,0 +1,23 @@
+# API Dependencies
+# Core LangChain
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+
+# LLM Providers
+langchain-mistralai>=0.2.0
+langchain-openai>=0.2.0
+langchain-huggingface>=0.1.0
+
+# Embeddings
+sentence-transformers>=3.0.0
+tiktoken>=0.7.0
+
+# UI Framework
+streamlit>=1.30.0
+
+# Data / Schemas
+pydantic>=2.0.0
+
+# Environment Variables
+python-dotenv>=1.0.0

@@ -1,0 +1,18 @@
+[project]
+name = "generative-ai"
+version = "0.1.0"
+description = "Generative AI Project"
+dependencies = [
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
+
+[project]
+dependencies = [
+  "langchain>=0.3.0",
+]
